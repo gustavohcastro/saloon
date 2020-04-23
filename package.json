@@ -1,0 +1,17 @@
+{
+  "name": "salao",
+  "version": "1.0.0",
+  "description": "backend da aplicacao de um salao",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "gustavo castro",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  }
+}
